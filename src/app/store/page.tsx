@@ -2,7 +2,7 @@ import PageCardStore from "@/app/components/PageCardStore";
 import PageHeader from "@/app/components/PageHeader";
 import Pagination from "@/app/components/PagePagination";
 import { fetchApi } from "@/app//helpers/fetch-api";
-import { Book } from "../interfaces/Book";
+import { Book } from "../interfaces/book";
 
 const getBooks = async (page = 1, pageSize = 4) => {
   const path = "/books";
